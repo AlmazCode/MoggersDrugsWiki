@@ -66,7 +66,7 @@ export function createMinecraftScene(container,{onSelect,onReady,onError}) {
  let id='';
  function resetCamera(view='iso'){
   if(!current)return;const bounds=new THREE.Box3().setFromObject(group),centre=bounds.getCenter(new THREE.Vector3()),size=bounds.getSize(new THREE.Vector3());const radius=Math.max(size.x,size.y,size.z,3);
-  controls.target.copy(centre);const distance=radius*1.7;
+  controls.target.copy(centre);const distance=radius*1.42/Math.min(1,camera.aspect);
   if(view==='top')camera.position.copy(centre).add(new THREE.Vector3(0,distance*1.5,.01));
   else if(view==='front')camera.position.copy(centre).add(new THREE.Vector3(0,.1,distance*1.6));
   else camera.position.copy(centre).add(new THREE.Vector3(distance*.85,distance*.72,distance*1.15));
