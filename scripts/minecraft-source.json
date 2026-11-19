@@ -1,0 +1,10 @@
+{
+  "version": "1.21.11",
+  "metadata": "https://piston-meta.mojang.com/v1/packages/4f6bd9388f12e9d7adc2ded64acba66212d60521/1.21.11.json",
+  "client": {
+    "sha1": "ba2df812c2d12e0219c489c4cd9a5e1f0760f5bd",
+    "size": 31152600,
+    "url": "https://piston-data.mojang.com/v1/objects/ba2df812c2d12e0219c489c4cd9a5e1f0760f5bd/client.jar"
+  },
+  "manifest": "https://piston-meta.mojang.com/mc/game/version_manifest_v2.json"
+}

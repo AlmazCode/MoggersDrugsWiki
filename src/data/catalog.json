@@ -1,0 +1,6546 @@
+{
+  "elements": [
+    {
+      "code": "AER",
+      "name": "Аэрит",
+      "dye": "LIGHT_BLUE_DYE",
+      "family": "MOBILE",
+      "valence": 1,
+      "affinity": 4.0,
+      "mobility": 9.0,
+      "polarity": -3.0,
+      "strain": 1.0
+    },
+    {
+      "code": "ALV",
+      "name": "Альвит",
+      "dye": "WHITE_DYE",
+      "family": "SUPPORT",
+      "valence": 1,
+      "affinity": 8.0,
+      "mobility": 1.0,
+      "polarity": 0.0,
+      "strain": 1.0
+    },
+    {
+      "code": "FLA",
+      "name": "Фларит",
+      "dye": "ORANGE_DYE",
+      "family": "CONNECTOR",
+      "valence": 3,
+      "affinity": 7.0,
+      "mobility": 5.0,
+      "polarity": 2.0,
+      "strain": 2.0
+    },
+    {
+      "code": "GRA",
+      "name": "Гравит",
+      "dye": "GRAY_DYE",
+      "family": "SUPPORT",
+      "valence": 3,
+      "affinity": 7.0,
+      "mobility": 2.0,
+      "polarity": 0.0,
+      "strain": 2.0
+    },
+    {
+      "code": "LIM",
+      "name": "Лимрит",
+      "dye": "LIME_DYE",
+      "family": "MOBILE",
+      "valence": 3,
+      "affinity": 5.0,
+      "mobility": 8.0,
+      "polarity": 2.0,
+      "strain": 1.0
+    },
+    {
+      "code": "LUM",
+      "name": "Люмен",
+      "dye": "YELLOW_DYE",
+      "family": "CONNECTOR",
+      "valence": 2,
+      "affinity": 6.0,
+      "mobility": 4.0,
+      "polarity": 1.0,
+      "strain": 1.0
+    },
+    {
+      "code": "MAV",
+      "name": "Маврит",
+      "dye": "MAGENTA_DYE",
+      "family": "DIRECTOR",
+      "valence": 2,
+      "affinity": 6.0,
+      "mobility": 3.0,
+      "polarity": -1.0,
+      "strain": 1.0
+    },
+    {
+      "code": "NOK",
+      "name": "Ноктит",
+      "dye": "BLACK_DYE",
+      "family": "SUPPORT",
+      "valence": 4,
+      "affinity": 6.0,
+      "mobility": 1.0,
+      "polarity": 0.0,
+      "strain": 3.0
+    },
+    {
+      "code": "ROZ",
+      "name": "Розен",
+      "dye": "PINK_DYE",
+      "family": "DIRECTOR",
+      "valence": 1,
+      "affinity": 5.0,
+      "mobility": 3.0,
+      "polarity": -2.0,
+      "strain": 1.0
+    },
+    {
+      "code": "RUV",
+      "name": "Рувит",
+      "dye": "RED_DYE",
+      "family": "CONNECTOR",
+      "valence": 4,
+      "affinity": 8.0,
+      "mobility": 6.0,
+      "polarity": 3.0,
+      "strain": 3.0
+    },
+    {
+      "code": "SAI",
+      "name": "Сайрит",
+      "dye": "BLUE_DYE",
+      "family": "DIRECTOR",
+      "valence": 4,
+      "affinity": 8.0,
+      "mobility": 2.0,
+      "polarity": 2.0,
+      "strain": 3.0
+    },
+    {
+      "code": "SEL",
+      "name": "Селвит",
+      "dye": "LIGHT_GRAY_DYE",
+      "family": "SUPPORT",
+      "valence": 2,
+      "affinity": 7.0,
+      "mobility": 2.0,
+      "polarity": 0.0,
+      "strain": 1.0
+    },
+    {
+      "code": "TER",
+      "name": "Тернит",
+      "dye": "BROWN_DYE",
+      "family": "CONNECTOR",
+      "valence": 1,
+      "affinity": 5.0,
+      "mobility": 5.0,
+      "polarity": -1.0,
+      "strain": 1.0
+    },
+    {
+      "code": "TEV",
+      "name": "Теврит",
+      "dye": "CYAN_DYE",
+      "family": "MOBILE",
+      "valence": 2,
+      "affinity": 5.0,
+      "mobility": 9.0,
+      "polarity": -2.0,
+      "strain": 1.0
+    },
+    {
+      "code": "VEL",
+      "name": "Велит",
+      "dye": "PURPLE_DYE",
+      "family": "DIRECTOR",
+      "valence": 3,
+      "affinity": 7.0,
+      "mobility": 2.0,
+      "polarity": 1.0,
+      "strain": 2.0
+    },
+    {
+      "code": "VIR",
+      "name": "Вирит",
+      "dye": "GREEN_DYE",
+      "family": "MOBILE",
+      "valence": 4,
+      "affinity": 6.0,
+      "mobility": 8.0,
+      "polarity": 3.0,
+      "strain": 2.0
+    }
+  ],
+  "plants": [
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "FLOWER_FOREST"
+          ],
+          "priority": 0,
+          "maturityMinutes": 35,
+          "bonus": {
+            "MAV": 3000000
+          }
+        }
+      ],
+      "name": "Лук",
+      "material": "ALLIUM",
+      "base": {
+        "ROZ": 1000000,
+        "SEL": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "LUSH_CAVES"
+          ],
+          "priority": 0,
+          "maturityMinutes": 35,
+          "bonus": {
+            "VIR": 2000000
+          }
+        }
+      ],
+      "name": "Азалия",
+      "material": "AZALEA",
+      "base": {
+        "ALV": 2000000,
+        "TER": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "MEADOW"
+          ],
+          "priority": 0,
+          "maturityMinutes": 20,
+          "bonus": {
+            "SEL": 2000000
+          }
+        }
+      ],
+      "name": "Хаустония",
+      "material": "AZURE_BLUET",
+      "base": {
+        "ALV": 2000000,
+        "GRA": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "BAMBOO_JUNGLE",
+            "JUNGLE",
+            "SPARSE_JUNGLE"
+          ],
+          "priority": 0,
+          "maturityMinutes": 30,
+          "bonus": {
+            "LIM": 2000000
+          }
+        }
+      ],
+      "name": "Бамбук",
+      "material": "BAMBOO",
+      "base": {
+        "SEL": 2000000,
+        "TER": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "LUSH_CAVES"
+          ],
+          "priority": 0,
+          "maturityMinutes": 45,
+          "bonus": {
+            "TEV": 2000000,
+            "VIR": 2000000
+          }
+        }
+      ],
+      "name": "Большая бросянка",
+      "material": "BIG_DRIPLEAF",
+      "base": {
+        "ALV": 1000000,
+        "TER": 2000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "SWAMP"
+          ],
+          "priority": 0,
+          "maturityMinutes": 40,
+          "bonus": {
+            "AER": 2000000,
+            "TEV": 2000000
+          }
+        }
+      ],
+      "name": "Синяя орхидея",
+      "material": "BLUE_ORCHID",
+      "base": {
+        "ALV": 1000000,
+        "TER": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "MUSHROOM_FIELDS"
+          ],
+          "priority": 0,
+          "maturityMinutes": 40,
+          "bonus": {
+            "MAV": 2000000
+          }
+        }
+      ],
+      "name": "Коричневый гриб",
+      "material": "BROWN_MUSHROOM",
+      "base": {
+        "GRA": 1000000,
+        "TER": 2000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "BIRCH_FOREST",
+            "FOREST",
+            "OLD_GROWTH_BIRCH_FOREST"
+          ],
+          "priority": 0,
+          "maturityMinutes": 20,
+          "bonus": {
+            "GRA": 2000000,
+            "SEL": 1000000
+          }
+        }
+      ],
+      "name": "Куст",
+      "material": "BUSH",
+      "base": {
+        "ALV": 1000000,
+        "TER": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "BADLANDS",
+            "DESERT",
+            "ERODED_BADLANDS",
+            "WOODED_BADLANDS"
+          ],
+          "priority": 0,
+          "maturityMinutes": 35,
+          "bonus": {
+            "FLA": 2000000,
+            "RUV": 2000000
+          }
+        }
+      ],
+      "name": "Цветок кактуса",
+      "material": "CACTUS_FLOWER",
+      "base": {
+        "FLA": 1000000,
+        "TER": 2000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "END_BARRENS",
+            "END_HIGHLANDS",
+            "END_MIDLANDS",
+            "SMALL_END_ISLANDS",
+            "THE_END"
+          ],
+          "priority": 0,
+          "maturityMinutes": 60,
+          "bonus": {
+            "MAV": 2000000,
+            "VEL": 3000000
+          }
+        }
+      ],
+      "name": "Цветок хоруса",
+      "material": "CHORUS_FLOWER",
+      "base": {
+        "ALV": 1000000,
+        "SEL": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "PALE_GARDEN"
+          ],
+          "priority": 0,
+          "maturityMinutes": 60,
+          "bonus": {
+            "NOK": 3000000,
+            "VEL": 2000000
+          }
+        }
+      ],
+      "name": "Закрытый глазоцвет",
+      "material": "CLOSED_EYEBLOSSOM",
+      "base": {
+        "SEL": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "BAMBOO_JUNGLE",
+            "JUNGLE",
+            "SPARSE_JUNGLE"
+          ],
+          "priority": 0,
+          "maturityMinutes": 40,
+          "bonus": {
+            "LIM": 2000000,
+            "MAV": 1000000
+          }
+        }
+      ],
+      "name": "Какао бобы",
+      "material": "COCOA_BEANS",
+      "base": {
+        "FLA": 1000000,
+        "TER": 2000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "MEADOW"
+          ],
+          "priority": 0,
+          "maturityMinutes": 40,
+          "bonus": {
+            "SAI": 3000000
+          }
+        }
+      ],
+      "name": "Василёк",
+      "material": "CORNFLOWER",
+      "base": {
+        "GRA": 1000000,
+        "SEL": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "CRIMSON_FOREST"
+          ],
+          "priority": 0,
+          "maturityMinutes": 45,
+          "bonus": {
+            "FLA": 2000000,
+            "NOK": 1000000
+          }
+        }
+      ],
+      "name": "Багровый гриб",
+      "material": "CRIMSON_FUNGUS",
+      "base": {
+        "RUV": 2000000,
+        "TER": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "BASALT_DELTAS"
+          ],
+          "priority": 10,
+          "maturityMinutes": 45,
+          "bonus": {
+            "FLA": 2000000,
+            "GRA": 1000000
+          }
+        },
+        {
+          "biomes": [
+            "CRIMSON_FOREST"
+          ],
+          "priority": 0,
+          "maturityMinutes": 35,
+          "bonus": {
+            "FLA": 1000000,
+            "RUV": 2000000
+          }
+        }
+      ],
+      "name": "Багровые корни",
+      "material": "CRIMSON_ROOTS",
+      "base": {
+        "RUV": 1000000,
+        "TER": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "MEADOW",
+            "PLAINS"
+          ],
+          "priority": 0,
+          "maturityMinutes": 20,
+          "bonus": {
+            "LUM": 2000000
+          }
+        }
+      ],
+      "name": "Одуванчик",
+      "material": "DANDELION",
+      "base": {
+        "ALV": 3000000,
+        "LUM": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "BADLANDS",
+            "DESERT",
+            "ERODED_BADLANDS",
+            "WOODED_BADLANDS"
+          ],
+          "priority": 0,
+          "maturityMinutes": 25,
+          "bonus": {
+            "FLA": 1000000,
+            "TER": 2000000
+          }
+        }
+      ],
+      "name": "Мёртвый куст",
+      "material": "DEAD_BUSH",
+      "base": {
+        "TER": 2000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "OLD_GROWTH_PINE_TAIGA",
+            "OLD_GROWTH_SPRUCE_TAIGA",
+            "SNOWY_TAIGA",
+            "TAIGA"
+          ],
+          "priority": 0,
+          "maturityMinutes": 35,
+          "bonus": {
+            "SAI": 2000000
+          }
+        }
+      ],
+      "name": "Папоротник",
+      "material": "FERN",
+      "base": {
+        "GRA": 2000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "MANGROVE_SWAMP",
+            "SWAMP"
+          ],
+          "priority": 0,
+          "maturityMinutes": 45,
+          "bonus": {
+            "AER": 2000000,
+            "TEV": 3000000
+          }
+        }
+      ],
+      "name": "Светлячковый куст",
+      "material": "FIREFLY_BUSH",
+      "base": {
+        "ALV": 1000000,
+        "TER": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "LUSH_CAVES"
+          ],
+          "priority": 0,
+          "maturityMinutes": 45,
+          "bonus": {
+            "MAV": 1000000,
+            "VIR": 2000000
+          }
+        }
+      ],
+      "name": "Цветущая азалия",
+      "material": "FLOWERING_AZALEA",
+      "base": {
+        "ALV": 2000000,
+        "ROZ": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "LUSH_CAVES"
+          ],
+          "priority": 0,
+          "maturityMinutes": 40,
+          "bonus": {
+            "AER": 1000000,
+            "VIR": 2000000
+          }
+        }
+      ],
+      "name": "Светящиеся ягоды",
+      "material": "GLOW_BERRIES",
+      "base": {
+        "LUM": 1000000,
+        "TER": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "COLD_OCEAN",
+            "DEEP_COLD_OCEAN",
+            "DEEP_FROZEN_OCEAN",
+            "FROZEN_OCEAN"
+          ],
+          "priority": 0,
+          "maturityMinutes": 40,
+          "bonus": {
+            "SAI": 1000000,
+            "TEV": 2000000
+          }
+        }
+      ],
+      "name": "Ламинария",
+      "material": "KELP",
+      "base": {
+        "SEL": 1000000,
+        "TER": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "OLD_GROWTH_PINE_TAIGA",
+            "OLD_GROWTH_SPRUCE_TAIGA",
+            "SNOWY_TAIGA",
+            "TAIGA"
+          ],
+          "priority": 0,
+          "maturityMinutes": 40,
+          "bonus": {
+            "SAI": 3000000
+          }
+        }
+      ],
+      "name": "Большой папоротник",
+      "material": "LARGE_FERN",
+      "base": {
+        "GRA": 3000000,
+        "TER": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "BIRCH_FOREST",
+            "FOREST",
+            "OLD_GROWTH_BIRCH_FOREST"
+          ],
+          "priority": 0,
+          "maturityMinutes": 35,
+          "bonus": {
+            "MAV": 2000000,
+            "VEL": 1000000
+          }
+        }
+      ],
+      "name": "Сирень",
+      "material": "LILAC",
+      "base": {
+        "ROZ": 1000000,
+        "SEL": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "DARK_FOREST"
+          ],
+          "priority": 0,
+          "maturityMinutes": 45,
+          "bonus": {
+            "NOK": 1000000,
+            "VEL": 2000000
+          }
+        }
+      ],
+      "name": "Ландыш",
+      "material": "LILY_OF_THE_VALLEY",
+      "base": {
+        "ALV": 1000000,
+        "SEL": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "DEEP_DARK"
+          ],
+          "priority": 10,
+          "maturityMinutes": 60,
+          "bonus": {
+            "NOK": 2000000,
+            "VEL": 1000000
+          }
+        },
+        {
+          "biomes": [
+            "LUSH_CAVES"
+          ],
+          "priority": 0,
+          "maturityMinutes": 30,
+          "bonus": {
+            "VIR": 2000000
+          }
+        }
+      ],
+      "name": "Мох",
+      "material": "MOSS_BLOCK",
+      "base": {
+        "ALV": 1000000,
+        "GRA": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "NETHER_WASTES"
+          ],
+          "priority": 10,
+          "maturityMinutes": 40,
+          "bonus": {
+            "FLA": 2000000,
+            "LIM": 1000000
+          }
+        },
+        {
+          "biomes": [
+            "WARPED_FOREST"
+          ],
+          "priority": 0,
+          "maturityMinutes": 40,
+          "bonus": {
+            "VEL": 2000000
+          }
+        }
+      ],
+      "name": "Ростки Незера",
+      "material": "NETHER_SPROUTS",
+      "base": {
+        "SEL": 1000000,
+        "TER": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "SOUL_SAND_VALLEY"
+          ],
+          "priority": 0,
+          "maturityMinutes": 50,
+          "bonus": {
+            "MAV": 1000000,
+            "NOK": 2000000
+          }
+        }
+      ],
+      "name": "Нарост Незера",
+      "material": "NETHER_WART",
+      "base": {
+        "RUV": 1000000,
+        "TER": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "PALE_GARDEN"
+          ],
+          "priority": 0,
+          "maturityMinutes": 60,
+          "bonus": {
+            "NOK": 2000000,
+            "VEL": 3000000
+          }
+        }
+      ],
+      "name": "Открытый глазоцвет",
+      "material": "OPEN_EYEBLOSSOM",
+      "base": {
+        "SEL": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "FLOWER_FOREST"
+          ],
+          "priority": 0,
+          "maturityMinutes": 25,
+          "bonus": {
+            "FLA": 2000000,
+            "LUM": 1000000
+          }
+        }
+      ],
+      "name": "Оранжевый тюльпан",
+      "material": "ORANGE_TULIP",
+      "base": {
+        "FLA": 2000000,
+        "TER": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "MEADOW"
+          ],
+          "priority": 0,
+          "maturityMinutes": 25,
+          "bonus": {
+            "GRA": 2000000,
+            "SEL": 1000000
+          }
+        }
+      ],
+      "name": "Ромашка",
+      "material": "OXEYE_DAISY",
+      "base": {
+        "ALV": 2000000,
+        "GRA": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "PALE_GARDEN"
+          ],
+          "priority": 0,
+          "maturityMinutes": 45,
+          "bonus": {
+            "NOK": 1000000,
+            "VEL": 2000000
+          }
+        }
+      ],
+      "name": "Бледный висячий мох",
+      "material": "PALE_HANGING_MOSS",
+      "base": {
+        "SEL": 2000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "PALE_GARDEN"
+          ],
+          "priority": 0,
+          "maturityMinutes": 45,
+          "bonus": {
+            "NOK": 2000000,
+            "VEL": 1000000
+          }
+        }
+      ],
+      "name": "Бледный мох",
+      "material": "PALE_MOSS_BLOCK",
+      "base": {
+        "GRA": 1000000,
+        "SEL": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "FLOWER_FOREST"
+          ],
+          "priority": 0,
+          "maturityMinutes": 35,
+          "bonus": {
+            "LIM": 2000000,
+            "ROZ": 2000000
+          }
+        }
+      ],
+      "name": "Пион",
+      "material": "PEONY",
+      "base": {
+        "ALV": 1000000,
+        "ROZ": 2000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "CHERRY_GROVE"
+          ],
+          "priority": 0,
+          "maturityMinutes": 35,
+          "bonus": {
+            "LIM": 2000000,
+            "ROZ": 2000000
+          }
+        }
+      ],
+      "name": "Розовые лепестки",
+      "material": "PINK_PETALS",
+      "base": {
+        "ROZ": 2000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "FLOWER_FOREST"
+          ],
+          "priority": 0,
+          "maturityMinutes": 30,
+          "bonus": {
+            "LIM": 1000000,
+            "ROZ": 2000000
+          }
+        }
+      ],
+      "name": "Розовый тюльпан",
+      "material": "PINK_TULIP",
+      "base": {
+        "ROZ": 2000000,
+        "SEL": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "MANGROVE_SWAMP"
+          ],
+          "priority": 0,
+          "maturityMinutes": 50,
+          "bonus": {
+            "TEV": 2000000,
+            "VIR": 2000000
+          }
+        }
+      ],
+      "name": "Кувшинница",
+      "material": "PITCHER_PLANT",
+      "base": {
+        "ALV": 1000000,
+        "TER": 2000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "BIRCH_FOREST",
+            "FOREST",
+            "OLD_GROWTH_BIRCH_FOREST",
+            "PLAINS"
+          ],
+          "priority": 0,
+          "maturityMinutes": 25,
+          "bonus": {
+            "RUV": 2000000
+          }
+        }
+      ],
+      "name": "Мак",
+      "material": "POPPY",
+      "base": {
+        "RUV": 1000000,
+        "SEL": 2000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "MUSHROOM_FIELDS"
+          ],
+          "priority": 0,
+          "maturityMinutes": 45,
+          "bonus": {
+            "MAV": 1000000,
+            "VEL": 2000000
+          }
+        }
+      ],
+      "name": "Красный гриб",
+      "material": "RED_MUSHROOM",
+      "base": {
+        "RUV": 1000000,
+        "TER": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "FLOWER_FOREST"
+          ],
+          "priority": 0,
+          "maturityMinutes": 25,
+          "bonus": {
+            "FLA": 1000000,
+            "RUV": 2000000
+          }
+        }
+      ],
+      "name": "Красный тюльпан",
+      "material": "RED_TULIP",
+      "base": {
+        "RUV": 2000000,
+        "SEL": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "BIRCH_FOREST",
+            "FOREST",
+            "OLD_GROWTH_BIRCH_FOREST"
+          ],
+          "priority": 0,
+          "maturityMinutes": 30,
+          "bonus": {
+            "ROZ": 1000000,
+            "RUV": 3000000
+          }
+        }
+      ],
+      "name": "Розовый куст",
+      "material": "ROSE_BUSH",
+      "base": {
+        "RUV": 2000000,
+        "TER": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "DEEP_LUKEWARM_OCEAN",
+            "DEEP_OCEAN",
+            "LUKEWARM_OCEAN",
+            "OCEAN",
+            "WARM_OCEAN"
+          ],
+          "priority": 0,
+          "maturityMinutes": 30,
+          "bonus": {
+            "AER": 2000000
+          }
+        }
+      ],
+      "name": "Морская трава",
+      "material": "SEAGRASS",
+      "base": {
+        "ALV": 1000000,
+        "TER": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "WARM_OCEAN"
+          ],
+          "priority": 0,
+          "maturityMinutes": 45,
+          "bonus": {
+            "LIM": 2000000,
+            "TEV": 1000000
+          }
+        }
+      ],
+      "name": "Морской огурец",
+      "material": "SEA_PICKLE",
+      "base": {
+        "LUM": 1000000,
+        "TER": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "BADLANDS",
+            "DESERT",
+            "ERODED_BADLANDS",
+            "SAVANNA",
+            "SAVANNA_PLATEAU",
+            "WINDSWEPT_SAVANNA",
+            "WOODED_BADLANDS"
+          ],
+          "priority": 0,
+          "maturityMinutes": 20,
+          "bonus": {
+            "FLA": 2000000
+          }
+        }
+      ],
+      "name": "Низкая сухая трава",
+      "material": "SHORT_DRY_GRASS",
+      "base": {
+        "FLA": 1000000,
+        "TER": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "LUSH_CAVES"
+          ],
+          "priority": 0,
+          "maturityMinutes": 40,
+          "bonus": {
+            "TEV": 2000000,
+            "VIR": 1000000
+          }
+        }
+      ],
+      "name": "Маленькая бросянка",
+      "material": "SMALL_DRIPLEAF",
+      "base": {
+        "ALV": 1000000,
+        "TER": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "LUSH_CAVES"
+          ],
+          "priority": 0,
+          "maturityMinutes": 60,
+          "bonus": {
+            "MAV": 2000000,
+            "VIR": 3000000
+          }
+        }
+      ],
+      "name": "Спороцвет",
+      "material": "SPORE_BLOSSOM",
+      "base": {
+        "ALV": 1000000,
+        "GRA": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "PLAINS",
+            "SUNFLOWER_PLAINS"
+          ],
+          "priority": 0,
+          "maturityMinutes": 25,
+          "bonus": {
+            "FLA": 1000000,
+            "LUM": 3000000
+          }
+        }
+      ],
+      "name": "Подсолнечник",
+      "material": "SUNFLOWER",
+      "base": {
+        "ALV": 1000000,
+        "LUM": 3000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "OLD_GROWTH_PINE_TAIGA",
+            "OLD_GROWTH_SPRUCE_TAIGA",
+            "SNOWY_TAIGA",
+            "TAIGA"
+          ],
+          "priority": 0,
+          "maturityMinutes": 35,
+          "bonus": {
+            "SAI": 2000000
+          }
+        }
+      ],
+      "name": "Сладкие ягоды",
+      "material": "SWEET_BERRIES",
+      "base": {
+        "ROZ": 2000000,
+        "TER": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "BADLANDS",
+            "DESERT",
+            "ERODED_BADLANDS",
+            "SAVANNA",
+            "SAVANNA_PLATEAU",
+            "WINDSWEPT_SAVANNA",
+            "WOODED_BADLANDS"
+          ],
+          "priority": 0,
+          "maturityMinutes": 25,
+          "bonus": {
+            "FLA": 2000000,
+            "RUV": 1000000
+          }
+        }
+      ],
+      "name": "Высокая сухая трава",
+      "material": "TALL_DRY_GRASS",
+      "base": {
+        "FLA": 1000000,
+        "TER": 2000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "BAMBOO_JUNGLE",
+            "JUNGLE",
+            "SPARSE_JUNGLE"
+          ],
+          "priority": 0,
+          "maturityMinutes": 45,
+          "bonus": {
+            "FLA": 2000000,
+            "RUV": 2000000
+          }
+        }
+      ],
+      "name": "Факельник",
+      "material": "TORCHFLOWER",
+      "base": {
+        "FLA": 2000000,
+        "TER": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "WARPED_FOREST"
+          ],
+          "priority": 0,
+          "maturityMinutes": 40,
+          "bonus": {
+            "TEV": 2000000,
+            "VEL": 1000000
+          }
+        }
+      ],
+      "name": "Вьющаяся лиана",
+      "material": "TWISTING_VINES",
+      "base": {
+        "SEL": 1000000,
+        "TER": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "DRIPSTONE_CAVES"
+          ],
+          "priority": 10,
+          "maturityMinutes": 45,
+          "bonus": {
+            "GRA": 2000000,
+            "TEV": 1000000
+          }
+        },
+        {
+          "biomes": [
+            "BAMBOO_JUNGLE",
+            "JUNGLE",
+            "SPARSE_JUNGLE"
+          ],
+          "priority": 0,
+          "maturityMinutes": 35,
+          "bonus": {
+            "LIM": 2000000
+          }
+        }
+      ],
+      "name": "Лиана",
+      "material": "VINE",
+      "base": {
+        "SEL": 1000000,
+        "TER": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "WARPED_FOREST"
+          ],
+          "priority": 0,
+          "maturityMinutes": 45,
+          "bonus": {
+            "TEV": 2000000,
+            "VEL": 1000000
+          }
+        }
+      ],
+      "name": "Искажённый гриб",
+      "material": "WARPED_FUNGUS",
+      "base": {
+        "GRA": 1000000,
+        "SEL": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "WARPED_FOREST"
+          ],
+          "priority": 0,
+          "maturityMinutes": 35,
+          "bonus": {
+            "TEV": 2000000
+          }
+        }
+      ],
+      "name": "Искажённые корни",
+      "material": "WARPED_ROOTS",
+      "base": {
+        "SEL": 1000000,
+        "TER": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "CRIMSON_FOREST"
+          ],
+          "priority": 0,
+          "maturityMinutes": 40,
+          "bonus": {
+            "FLA": 2000000,
+            "NOK": 1000000
+          }
+        }
+      ],
+      "name": "Плакучая лиана",
+      "material": "WEEPING_VINES",
+      "base": {
+        "RUV": 1000000,
+        "SEL": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "FLOWER_FOREST"
+          ],
+          "priority": 0,
+          "maturityMinutes": 20,
+          "bonus": {
+            "ALV": 2000000,
+            "SEL": 1000000
+          }
+        }
+      ],
+      "name": "Белый тюльпан",
+      "material": "WHITE_TULIP",
+      "base": {
+        "ALV": 3000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "BIRCH_FOREST",
+            "MEADOW",
+            "OLD_GROWTH_BIRCH_FOREST"
+          ],
+          "priority": 0,
+          "maturityMinutes": 20,
+          "bonus": {
+            "GRA": 1000000,
+            "LUM": 2000000
+          }
+        }
+      ],
+      "name": "Полевые цветы",
+      "material": "WILDFLOWERS",
+      "base": {
+        "LUM": 2000000,
+        "SEL": 1000000
+      }
+    },
+    {
+      "profiles": [
+        {
+          "biomes": [
+            "SOUL_SAND_VALLEY"
+          ],
+          "priority": 0,
+          "maturityMinutes": 60,
+          "bonus": {
+            "NOK": 3000000,
+            "VEL": 1000000
+          }
+        }
+      ],
+      "name": "Роза визера",
+      "material": "WITHER_ROSE",
+      "base": {
+        "RUV": 1000000,
+        "TER": 1000000
+      }
+    }
+  ],
+  "blueprints": [
+    {
+      "id": "assembly-basic",
+      "type": "ASSEMBLY",
+      "tier": "BASIC",
+      "width": 3,
+      "depth": 3,
+      "height": 3,
+      "requirements": [
+        {
+          "x": -1,
+          "y": 0,
+          "z": -1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": -1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": -1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": 0,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 0,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": 1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": -1,
+          "material": "SPRUCE_FENCE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": -1,
+          "material": "BARREL",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": -1,
+          "material": "SPRUCE_FENCE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": 0,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": 0,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": 0,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": 1,
+          "material": "SPRUCE_FENCE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": 1,
+          "material": "BARREL",
+          "facing": "FORWARD"
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "material": "SPRUCE_FENCE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": -1,
+          "material": "CRAFTING_TABLE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": -1,
+          "material": "SMOOTH_STONE_SLAB",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": -1,
+          "material": "CRAFTING_TABLE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": 0,
+          "material": "SMOOTH_STONE_SLAB",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": 0,
+          "material": "SMOOTH_STONE_SLAB",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": 0,
+          "material": "SMOOTH_STONE_SLAB",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": 1,
+          "material": "CRAFTING_TABLE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": 1,
+          "material": "SMOOTH_STONE_SLAB",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": 1,
+          "material": "CRAFTING_TABLE",
+          "facing": null
+        }
+      ],
+      "panel": {
+        "z": 1,
+        "x": 0,
+        "y": 1
+      },
+      "port": {
+        "z": -1,
+        "x": 0,
+        "y": 1
+      },
+      "limits": {
+        "secondsPerGram": 4,
+        "speed": 1.0,
+        "plants": 16,
+        "yieldPercent": 80.0,
+        "functions": 1,
+        "bufferFractions": 2,
+        "capacityGrams": 256.0,
+        "otherLossPercent": 2.0
+      },
+      "name": "Сборочная станция · базовый"
+    },
+    {
+      "id": "assembly-normal",
+      "type": "ASSEMBLY",
+      "tier": "NORMAL",
+      "width": 5,
+      "depth": 3,
+      "height": 3,
+      "requirements": [
+        {
+          "x": -1,
+          "y": 0,
+          "z": -1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": -1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": -1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": 0,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 0,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": 1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": -1,
+          "material": "SPRUCE_FENCE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": -1,
+          "material": "BARREL",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": -1,
+          "material": "SPRUCE_FENCE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": 0,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": 0,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": 0,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": 1,
+          "material": "SPRUCE_FENCE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": 1,
+          "material": "BARREL",
+          "facing": "FORWARD"
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "material": "SPRUCE_FENCE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": -1,
+          "material": "CRAFTING_TABLE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": -1,
+          "material": "SMOOTH_STONE_SLAB",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": -1,
+          "material": "CRAFTING_TABLE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": 0,
+          "material": "SMOOTH_STONE_SLAB",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": 0,
+          "material": "SMOOTH_STONE_SLAB",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": 0,
+          "material": "SMOOTH_STONE_SLAB",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": 1,
+          "material": "CRAFTING_TABLE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": 1,
+          "material": "SMOOTH_STONE_SLAB",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": 1,
+          "material": "CRAFTING_TABLE",
+          "facing": null
+        },
+        {
+          "x": -2,
+          "y": 0,
+          "z": 0,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": -2,
+          "y": 1,
+          "z": 0,
+          "material": "CRAFTING_TABLE",
+          "facing": null
+        },
+        {
+          "x": -2,
+          "y": 2,
+          "z": 0,
+          "material": "CRAFTING_TABLE",
+          "facing": null
+        },
+        {
+          "x": 2,
+          "y": 0,
+          "z": 0,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "z": 0,
+          "material": "SMITHING_TABLE",
+          "facing": null
+        },
+        {
+          "x": 2,
+          "y": 2,
+          "z": 0,
+          "material": "CRAFTING_TABLE",
+          "facing": null
+        }
+      ],
+      "panel": {
+        "z": 1,
+        "x": 0,
+        "y": 1
+      },
+      "port": {
+        "z": -1,
+        "x": 0,
+        "y": 1
+      },
+      "limits": {
+        "secondsPerGram": 2,
+        "speed": 1.15,
+        "plants": 64,
+        "yieldPercent": 92.0,
+        "functions": 2,
+        "bufferFractions": 4,
+        "capacityGrams": 1024.0,
+        "otherLossPercent": 1.0
+      },
+      "name": "Сборочная станция · обычный"
+    },
+    {
+      "id": "assembly-scientific",
+      "type": "ASSEMBLY",
+      "tier": "SCIENTIFIC",
+      "width": 7,
+      "depth": 5,
+      "height": 3,
+      "requirements": [
+        {
+          "x": -1,
+          "y": 0,
+          "z": -1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": -1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": -1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": 0,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 0,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": 1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": -1,
+          "material": "SPRUCE_FENCE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": -1,
+          "material": "BARREL",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": -1,
+          "material": "SPRUCE_FENCE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": 0,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": 0,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": 0,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": 1,
+          "material": "SPRUCE_FENCE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": 1,
+          "material": "BARREL",
+          "facing": "FORWARD"
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "material": "SPRUCE_FENCE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": -1,
+          "material": "CRAFTING_TABLE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": -1,
+          "material": "SMOOTH_STONE_SLAB",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": -1,
+          "material": "CRAFTING_TABLE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": 0,
+          "material": "SMOOTH_STONE_SLAB",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": 0,
+          "material": "SMOOTH_STONE_SLAB",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": 0,
+          "material": "SMOOTH_STONE_SLAB",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": 1,
+          "material": "CRAFTING_TABLE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": 1,
+          "material": "SMOOTH_STONE_SLAB",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": 1,
+          "material": "CRAFTING_TABLE",
+          "facing": null
+        },
+        {
+          "x": -2,
+          "y": 0,
+          "z": 0,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": -2,
+          "y": 1,
+          "z": 0,
+          "material": "CRAFTING_TABLE",
+          "facing": null
+        },
+        {
+          "x": -2,
+          "y": 2,
+          "z": 0,
+          "material": "CRAFTING_TABLE",
+          "facing": null
+        },
+        {
+          "x": 2,
+          "y": 0,
+          "z": 0,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "z": 0,
+          "material": "SMITHING_TABLE",
+          "facing": null
+        },
+        {
+          "x": 2,
+          "y": 2,
+          "z": 0,
+          "material": "CRAFTING_TABLE",
+          "facing": null
+        },
+        {
+          "x": -3,
+          "y": 0,
+          "z": 0,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -3,
+          "y": 1,
+          "z": 0,
+          "material": "LECTERN",
+          "facing": null
+        },
+        {
+          "x": -3,
+          "y": 2,
+          "z": 0,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "z": 0,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "z": 0,
+          "material": "ENCHANTING_TABLE",
+          "facing": null
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "z": 0,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": -3,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": -3,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": -3,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": -2,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": -2,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": -2,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": -3,
+          "material": "REDSTONE_LAMP",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": -3,
+          "material": "BARREL",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": -3,
+          "material": "REDSTONE_LAMP",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": -2,
+          "material": "AMETHYST_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": -2,
+          "material": "QUARTZ_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": -2,
+          "material": "AMETHYST_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": -3,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": -3,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": -3,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": -2,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": -2,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": -2,
+          "material": "GLASS",
+          "facing": null
+        }
+      ],
+      "panel": {
+        "z": 1,
+        "x": 0,
+        "y": 1
+      },
+      "port": {
+        "z": -3,
+        "x": 0,
+        "y": 1
+      },
+      "limits": {
+        "secondsPerGram": 1,
+        "speed": 1.3,
+        "plants": 256,
+        "yieldPercent": 98.0,
+        "functions": 4,
+        "bufferFractions": 8,
+        "capacityGrams": 4096.0,
+        "otherLossPercent": 0.25
+      },
+      "name": "Сборочная станция · научный"
+    },
+    {
+      "id": "reactor-basic",
+      "type": "REACTOR",
+      "tier": "BASIC",
+      "width": 3,
+      "depth": 3,
+      "height": 5,
+      "requirements": [
+        {
+          "x": -1,
+          "y": 0,
+          "z": -1,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": -1,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": -1,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": 0,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "material": "FURNACE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 0,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": 1,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 1,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": -1,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": -1,
+          "material": "BARREL",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": -1,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": 0,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": 0,
+          "material": "REDSTONE_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": 0,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": 1,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": 1,
+          "material": "BARREL",
+          "facing": "FORWARD"
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": -1,
+          "material": "WAXED_COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": -1,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": -1,
+          "material": "WAXED_COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": 0,
+          "material": "WAXED_COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": 0,
+          "material": "REDSTONE_LAMP",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": 0,
+          "material": "WAXED_COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": 1,
+          "material": "RED_STAINED_GLASS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": 1,
+          "material": "WAXED_COPPER_GRATE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": 1,
+          "material": "RED_STAINED_GLASS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 3,
+          "z": -1,
+          "material": "POLISHED_BLACKSTONE_BRICK_WALL",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 4,
+          "z": -1,
+          "material": "POLISHED_BLACKSTONE_BRICK_WALL",
+          "facing": null
+        }
+      ],
+      "panel": {
+        "z": 1,
+        "x": 0,
+        "y": 1
+      },
+      "port": {
+        "z": -1,
+        "x": 0,
+        "y": 1
+      },
+      "limits": {
+        "secondsPerGram": 4,
+        "speed": 1.0,
+        "plants": 16,
+        "yieldPercent": 80.0,
+        "functions": 1,
+        "bufferFractions": 2,
+        "capacityGrams": 256.0,
+        "otherLossPercent": 2.0
+      },
+      "name": "Реактор · базовый"
+    },
+    {
+      "id": "reactor-normal",
+      "type": "REACTOR",
+      "tier": "NORMAL",
+      "width": 5,
+      "depth": 3,
+      "height": 5,
+      "requirements": [
+        {
+          "x": -1,
+          "y": 0,
+          "z": -1,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": -1,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": -1,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": 0,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "material": "FURNACE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 0,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": 1,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 1,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": -1,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": -1,
+          "material": "BARREL",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": -1,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": 0,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": 0,
+          "material": "REDSTONE_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": 0,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": 1,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": 1,
+          "material": "BARREL",
+          "facing": "FORWARD"
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": -1,
+          "material": "WAXED_COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": -1,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": -1,
+          "material": "WAXED_COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": 0,
+          "material": "WAXED_COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": 0,
+          "material": "REDSTONE_LAMP",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": 0,
+          "material": "WAXED_COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": 1,
+          "material": "RED_STAINED_GLASS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": 1,
+          "material": "WAXED_COPPER_GRATE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": 1,
+          "material": "RED_STAINED_GLASS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 3,
+          "z": -1,
+          "material": "POLISHED_BLACKSTONE_BRICK_WALL",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 4,
+          "z": -1,
+          "material": "POLISHED_BLACKSTONE_BRICK_WALL",
+          "facing": null
+        },
+        {
+          "x": -2,
+          "y": 0,
+          "z": 0,
+          "material": "WAXED_COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -2,
+          "y": 1,
+          "z": 0,
+          "material": "BLAST_FURNACE",
+          "facing": null
+        },
+        {
+          "x": -2,
+          "y": 2,
+          "z": 0,
+          "material": "FURNACE",
+          "facing": null
+        },
+        {
+          "x": 2,
+          "y": 0,
+          "z": 0,
+          "material": "WAXED_COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "z": 0,
+          "material": "REDSTONE_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 2,
+          "y": 2,
+          "z": 0,
+          "material": "FURNACE",
+          "facing": null
+        }
+      ],
+      "panel": {
+        "z": 1,
+        "x": 0,
+        "y": 1
+      },
+      "port": {
+        "z": -1,
+        "x": 0,
+        "y": 1
+      },
+      "limits": {
+        "secondsPerGram": 2,
+        "speed": 1.15,
+        "plants": 64,
+        "yieldPercent": 92.0,
+        "functions": 2,
+        "bufferFractions": 4,
+        "capacityGrams": 1024.0,
+        "otherLossPercent": 1.0
+      },
+      "name": "Реактор · обычный"
+    },
+    {
+      "id": "reactor-scientific",
+      "type": "REACTOR",
+      "tier": "SCIENTIFIC",
+      "width": 7,
+      "depth": 5,
+      "height": 5,
+      "requirements": [
+        {
+          "x": -1,
+          "y": 0,
+          "z": -1,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": -1,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": -1,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": 0,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "material": "FURNACE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 0,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": 1,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 1,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": -1,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": -1,
+          "material": "BARREL",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": -1,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": 0,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": 0,
+          "material": "REDSTONE_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": 0,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": 1,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": 1,
+          "material": "BARREL",
+          "facing": "FORWARD"
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": -1,
+          "material": "WAXED_COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": -1,
+          "material": "POLISHED_BLACKSTONE_BRICKS",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": -1,
+          "material": "WAXED_COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": 0,
+          "material": "WAXED_COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": 0,
+          "material": "REDSTONE_LAMP",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": 0,
+          "material": "WAXED_COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": 1,
+          "material": "RED_STAINED_GLASS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": 1,
+          "material": "WAXED_COPPER_GRATE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": 1,
+          "material": "RED_STAINED_GLASS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 3,
+          "z": -1,
+          "material": "POLISHED_BLACKSTONE_BRICK_WALL",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 4,
+          "z": -1,
+          "material": "POLISHED_BLACKSTONE_BRICK_WALL",
+          "facing": null
+        },
+        {
+          "x": -2,
+          "y": 0,
+          "z": 0,
+          "material": "WAXED_COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -2,
+          "y": 1,
+          "z": 0,
+          "material": "BLAST_FURNACE",
+          "facing": null
+        },
+        {
+          "x": -2,
+          "y": 2,
+          "z": 0,
+          "material": "FURNACE",
+          "facing": null
+        },
+        {
+          "x": 2,
+          "y": 0,
+          "z": 0,
+          "material": "WAXED_COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "z": 0,
+          "material": "REDSTONE_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 2,
+          "y": 2,
+          "z": 0,
+          "material": "FURNACE",
+          "facing": null
+        },
+        {
+          "x": -3,
+          "y": 0,
+          "z": 0,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -3,
+          "y": 1,
+          "z": 0,
+          "material": "LECTERN",
+          "facing": null
+        },
+        {
+          "x": -3,
+          "y": 2,
+          "z": 0,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "z": 0,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "z": 0,
+          "material": "ENCHANTING_TABLE",
+          "facing": null
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "z": 0,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": -3,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": -3,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": -3,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": -2,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": -2,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": -2,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": -3,
+          "material": "REDSTONE_LAMP",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": -3,
+          "material": "BARREL",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": -3,
+          "material": "REDSTONE_LAMP",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": -2,
+          "material": "AMETHYST_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": -2,
+          "material": "QUARTZ_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": -2,
+          "material": "AMETHYST_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": -3,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": -3,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": -3,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": -2,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": -2,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": -2,
+          "material": "GLASS",
+          "facing": null
+        }
+      ],
+      "panel": {
+        "z": 1,
+        "x": 0,
+        "y": 1
+      },
+      "port": {
+        "z": -3,
+        "x": 0,
+        "y": 1
+      },
+      "limits": {
+        "secondsPerGram": 1,
+        "speed": 1.3,
+        "plants": 256,
+        "yieldPercent": 98.0,
+        "functions": 4,
+        "bufferFractions": 8,
+        "capacityGrams": 4096.0,
+        "otherLossPercent": 0.25
+      },
+      "name": "Реактор · научный"
+    },
+    {
+      "id": "stabilizer-basic",
+      "type": "STABILIZER",
+      "tier": "BASIC",
+      "width": 3,
+      "depth": 3,
+      "height": 4,
+      "requirements": [
+        {
+          "x": -1,
+          "y": 0,
+          "z": -1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": -1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": -1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": 0,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "material": "PACKED_ICE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 0,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": 1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": -1,
+          "material": "BARREL",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": 0,
+          "material": "PACKED_ICE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": 0,
+          "material": "CAULDRON",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": 0,
+          "material": "PACKED_ICE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": 1,
+          "material": "BARREL",
+          "facing": "FORWARD"
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": 0,
+          "material": "BLUE_STAINED_GLASS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": 0,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": 0,
+          "material": "BLUE_STAINED_GLASS",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 3,
+          "z": 0,
+          "material": "PACKED_ICE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "z": 0,
+          "material": "PACKED_ICE",
+          "facing": null
+        }
+      ],
+      "panel": {
+        "z": 1,
+        "x": 0,
+        "y": 1
+      },
+      "port": {
+        "z": -1,
+        "x": 0,
+        "y": 1
+      },
+      "limits": {
+        "secondsPerGram": 4,
+        "speed": 1.0,
+        "plants": 16,
+        "yieldPercent": 80.0,
+        "functions": 1,
+        "bufferFractions": 2,
+        "capacityGrams": 256.0,
+        "otherLossPercent": 2.0
+      },
+      "name": "Стабилизатор · базовый"
+    },
+    {
+      "id": "stabilizer-normal",
+      "type": "STABILIZER",
+      "tier": "NORMAL",
+      "width": 5,
+      "depth": 3,
+      "height": 4,
+      "requirements": [
+        {
+          "x": -1,
+          "y": 0,
+          "z": -1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": -1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": -1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": 0,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "material": "PACKED_ICE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 0,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": 1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": -1,
+          "material": "BARREL",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": 0,
+          "material": "PACKED_ICE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": 0,
+          "material": "CAULDRON",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": 0,
+          "material": "PACKED_ICE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": 1,
+          "material": "BARREL",
+          "facing": "FORWARD"
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": 0,
+          "material": "BLUE_STAINED_GLASS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": 0,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": 0,
+          "material": "BLUE_STAINED_GLASS",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 3,
+          "z": 0,
+          "material": "PACKED_ICE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "z": 0,
+          "material": "PACKED_ICE",
+          "facing": null
+        },
+        {
+          "x": -2,
+          "y": 0,
+          "z": 0,
+          "material": "PACKED_ICE",
+          "facing": null
+        },
+        {
+          "x": -2,
+          "y": 1,
+          "z": 0,
+          "material": "PACKED_ICE",
+          "facing": null
+        },
+        {
+          "x": -2,
+          "y": 2,
+          "z": 0,
+          "material": "BLUE_STAINED_GLASS",
+          "facing": null
+        },
+        {
+          "x": 2,
+          "y": 0,
+          "z": 0,
+          "material": "PACKED_ICE",
+          "facing": null
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "z": 0,
+          "material": "HONEYCOMB_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 2,
+          "y": 2,
+          "z": 0,
+          "material": "BLUE_STAINED_GLASS",
+          "facing": null
+        }
+      ],
+      "panel": {
+        "z": 1,
+        "x": 0,
+        "y": 1
+      },
+      "port": {
+        "z": -1,
+        "x": 0,
+        "y": 1
+      },
+      "limits": {
+        "secondsPerGram": 2,
+        "speed": 1.15,
+        "plants": 64,
+        "yieldPercent": 92.0,
+        "functions": 2,
+        "bufferFractions": 4,
+        "capacityGrams": 1024.0,
+        "otherLossPercent": 1.0
+      },
+      "name": "Стабилизатор · обычный"
+    },
+    {
+      "id": "stabilizer-scientific",
+      "type": "STABILIZER",
+      "tier": "SCIENTIFIC",
+      "width": 7,
+      "depth": 5,
+      "height": 4,
+      "requirements": [
+        {
+          "x": -1,
+          "y": 0,
+          "z": -1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": -1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": -1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": 0,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "material": "PACKED_ICE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 0,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": 1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": -1,
+          "material": "BARREL",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": 0,
+          "material": "PACKED_ICE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": 0,
+          "material": "CAULDRON",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": 0,
+          "material": "PACKED_ICE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": 1,
+          "material": "BARREL",
+          "facing": "FORWARD"
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": 0,
+          "material": "BLUE_STAINED_GLASS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": 0,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": 0,
+          "material": "BLUE_STAINED_GLASS",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 3,
+          "z": 0,
+          "material": "PACKED_ICE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "z": 0,
+          "material": "PACKED_ICE",
+          "facing": null
+        },
+        {
+          "x": -2,
+          "y": 0,
+          "z": 0,
+          "material": "PACKED_ICE",
+          "facing": null
+        },
+        {
+          "x": -2,
+          "y": 1,
+          "z": 0,
+          "material": "PACKED_ICE",
+          "facing": null
+        },
+        {
+          "x": -2,
+          "y": 2,
+          "z": 0,
+          "material": "BLUE_STAINED_GLASS",
+          "facing": null
+        },
+        {
+          "x": 2,
+          "y": 0,
+          "z": 0,
+          "material": "PACKED_ICE",
+          "facing": null
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "z": 0,
+          "material": "HONEYCOMB_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 2,
+          "y": 2,
+          "z": 0,
+          "material": "BLUE_STAINED_GLASS",
+          "facing": null
+        },
+        {
+          "x": -3,
+          "y": 0,
+          "z": 0,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -3,
+          "y": 1,
+          "z": 0,
+          "material": "LECTERN",
+          "facing": null
+        },
+        {
+          "x": -3,
+          "y": 2,
+          "z": 0,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "z": 0,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "z": 0,
+          "material": "ENCHANTING_TABLE",
+          "facing": null
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "z": 0,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": -3,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": -3,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": -3,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": -2,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": -2,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": -2,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": -3,
+          "material": "REDSTONE_LAMP",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": -3,
+          "material": "BARREL",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": -3,
+          "material": "REDSTONE_LAMP",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": -2,
+          "material": "AMETHYST_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": -2,
+          "material": "QUARTZ_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": -2,
+          "material": "AMETHYST_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": -3,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": -3,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": -3,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": -2,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": -2,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": -2,
+          "material": "GLASS",
+          "facing": null
+        }
+      ],
+      "panel": {
+        "z": 1,
+        "x": 0,
+        "y": 1
+      },
+      "port": {
+        "z": -3,
+        "x": 0,
+        "y": 1
+      },
+      "limits": {
+        "secondsPerGram": 1,
+        "speed": 1.3,
+        "plants": 256,
+        "yieldPercent": 98.0,
+        "functions": 4,
+        "bufferFractions": 8,
+        "capacityGrams": 4096.0,
+        "otherLossPercent": 0.25
+      },
+      "name": "Стабилизатор · научный"
+    },
+    {
+      "id": "separator-basic",
+      "type": "SEPARATOR",
+      "tier": "BASIC",
+      "width": 3,
+      "depth": 3,
+      "height": 4,
+      "requirements": [
+        {
+          "x": -1,
+          "y": 0,
+          "z": -1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": -1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": -1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": 0,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 0,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": 1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": -1,
+          "material": "BARREL",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": 0,
+          "material": "SPRUCE_FENCE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": 0,
+          "material": "HOPPER",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": 0,
+          "material": "HOPPER",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": 1,
+          "material": "BARREL",
+          "facing": "FORWARD"
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "material": "BARREL",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": 0,
+          "material": "HOPPER",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": 0,
+          "material": "WAXED_COPPER_GRATE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": 0,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 3,
+          "z": 0,
+          "material": "WAXED_COPPER_GRATE",
+          "facing": null
+        }
+      ],
+      "panel": {
+        "z": 1,
+        "x": 0,
+        "y": 1
+      },
+      "port": {
+        "z": -1,
+        "x": 0,
+        "y": 1
+      },
+      "limits": {
+        "secondsPerGram": 4,
+        "speed": 1.0,
+        "plants": 16,
+        "yieldPercent": 80.0,
+        "functions": 1,
+        "bufferFractions": 2,
+        "capacityGrams": 256.0,
+        "otherLossPercent": 2.0
+      },
+      "name": "Разделитель · базовый"
+    },
+    {
+      "id": "separator-normal",
+      "type": "SEPARATOR",
+      "tier": "NORMAL",
+      "width": 5,
+      "depth": 3,
+      "height": 4,
+      "requirements": [
+        {
+          "x": -1,
+          "y": 0,
+          "z": -1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": -1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": -1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": 0,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 0,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": 1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": -1,
+          "material": "BARREL",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": 0,
+          "material": "SPRUCE_FENCE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": 0,
+          "material": "HOPPER",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": 0,
+          "material": "HOPPER",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": 1,
+          "material": "BARREL",
+          "facing": "FORWARD"
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "material": "BARREL",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": 0,
+          "material": "HOPPER",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": 0,
+          "material": "WAXED_COPPER_GRATE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": 0,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 3,
+          "z": 0,
+          "material": "WAXED_COPPER_GRATE",
+          "facing": null
+        },
+        {
+          "x": -2,
+          "y": 0,
+          "z": 0,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": -2,
+          "y": 1,
+          "z": 0,
+          "material": "HOPPER",
+          "facing": null
+        },
+        {
+          "x": -2,
+          "y": 2,
+          "z": 0,
+          "material": "HOPPER",
+          "facing": null
+        },
+        {
+          "x": 2,
+          "y": 0,
+          "z": 0,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "z": 0,
+          "material": "DECORATED_POT",
+          "facing": null
+        },
+        {
+          "x": 2,
+          "y": 2,
+          "z": 0,
+          "material": "AIR",
+          "facing": null
+        }
+      ],
+      "panel": {
+        "z": 1,
+        "x": 0,
+        "y": 1
+      },
+      "port": {
+        "z": -1,
+        "x": 0,
+        "y": 1
+      },
+      "limits": {
+        "secondsPerGram": 2,
+        "speed": 1.15,
+        "plants": 64,
+        "yieldPercent": 92.0,
+        "functions": 2,
+        "bufferFractions": 4,
+        "capacityGrams": 1024.0,
+        "otherLossPercent": 1.0
+      },
+      "name": "Разделитель · обычный"
+    },
+    {
+      "id": "separator-scientific",
+      "type": "SEPARATOR",
+      "tier": "SCIENTIFIC",
+      "width": 7,
+      "depth": 5,
+      "height": 4,
+      "requirements": [
+        {
+          "x": -1,
+          "y": 0,
+          "z": -1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": -1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": -1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": 0,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 0,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": 1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 1,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": -1,
+          "material": "BARREL",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": 0,
+          "material": "SPRUCE_FENCE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": 0,
+          "material": "HOPPER",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": 0,
+          "material": "HOPPER",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": 1,
+          "material": "BARREL",
+          "facing": "FORWARD"
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "material": "BARREL",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": 0,
+          "material": "HOPPER",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": 0,
+          "material": "WAXED_COPPER_GRATE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": 0,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 3,
+          "z": 0,
+          "material": "WAXED_COPPER_GRATE",
+          "facing": null
+        },
+        {
+          "x": -2,
+          "y": 0,
+          "z": 0,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": -2,
+          "y": 1,
+          "z": 0,
+          "material": "HOPPER",
+          "facing": null
+        },
+        {
+          "x": -2,
+          "y": 2,
+          "z": 0,
+          "material": "HOPPER",
+          "facing": null
+        },
+        {
+          "x": 2,
+          "y": 0,
+          "z": 0,
+          "material": "SMOOTH_STONE",
+          "facing": null
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "z": 0,
+          "material": "DECORATED_POT",
+          "facing": null
+        },
+        {
+          "x": 2,
+          "y": 2,
+          "z": 0,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -3,
+          "y": 0,
+          "z": 0,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -3,
+          "y": 1,
+          "z": 0,
+          "material": "LECTERN",
+          "facing": null
+        },
+        {
+          "x": -3,
+          "y": 2,
+          "z": 0,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "z": 0,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "z": 0,
+          "material": "ENCHANTING_TABLE",
+          "facing": null
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "z": 0,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": -3,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": -3,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": -3,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": -2,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": -2,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": -2,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": -3,
+          "material": "REDSTONE_LAMP",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": -3,
+          "material": "BARREL",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": -3,
+          "material": "REDSTONE_LAMP",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": -2,
+          "material": "AMETHYST_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": -2,
+          "material": "QUARTZ_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": -2,
+          "material": "AMETHYST_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": -3,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": -3,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": -3,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": -2,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": -2,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": -2,
+          "material": "GLASS",
+          "facing": null
+        }
+      ],
+      "panel": {
+        "z": 1,
+        "x": 0,
+        "y": 1
+      },
+      "port": {
+        "z": -3,
+        "x": 0,
+        "y": 1
+      },
+      "limits": {
+        "secondsPerGram": 1,
+        "speed": 1.3,
+        "plants": 256,
+        "yieldPercent": 98.0,
+        "functions": 4,
+        "bufferFractions": 8,
+        "capacityGrams": 4096.0,
+        "otherLossPercent": 0.25
+      },
+      "name": "Разделитель · научный"
+    },
+    {
+      "id": "extractor-basic",
+      "type": "EXTRACTOR",
+      "tier": "BASIC",
+      "width": 3,
+      "depth": 3,
+      "height": 5,
+      "requirements": [
+        {
+          "x": -1,
+          "y": 0,
+          "z": -1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": -1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": -1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": 0,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "material": "FURNACE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 0,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": 1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": -1,
+          "material": "HOPPER",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": 0,
+          "material": "WAXED_COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": 0,
+          "material": "CAULDRON",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": 0,
+          "material": "WAXED_COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": 1,
+          "material": "DROPPER",
+          "facing": "FORWARD"
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": 1,
+          "material": "BARREL",
+          "facing": "FORWARD"
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "material": "WAXED_COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": 0,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": 0,
+          "material": "LIME_STAINED_GLASS",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": 0,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 3,
+          "z": 0,
+          "material": "LIME_STAINED_GLASS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 4,
+          "z": 0,
+          "material": "WAXED_COPPER_BLOCK",
+          "facing": null
+        }
+      ],
+      "panel": {
+        "z": 1,
+        "x": 0,
+        "y": 1
+      },
+      "port": {
+        "z": -1,
+        "x": 0,
+        "y": 1
+      },
+      "input": {
+        "z": -1,
+        "x": 0,
+        "y": 1
+      },
+      "output": {
+        "z": 1,
+        "x": -1,
+        "y": 1
+      },
+      "limits": {
+        "secondsPerGram": 4,
+        "speed": 1.0,
+        "plants": 16,
+        "yieldPercent": 80.0,
+        "functions": 1,
+        "bufferFractions": 2,
+        "capacityGrams": 256.0,
+        "otherLossPercent": 2.0
+      },
+      "name": "Извлекатель · базовый"
+    },
+    {
+      "id": "extractor-normal",
+      "type": "EXTRACTOR",
+      "tier": "NORMAL",
+      "width": 5,
+      "depth": 3,
+      "height": 5,
+      "requirements": [
+        {
+          "x": -1,
+          "y": 0,
+          "z": -1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": -1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": -1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": 0,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "material": "FURNACE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 0,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": 1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": -1,
+          "material": "HOPPER",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": 0,
+          "material": "WAXED_COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": 0,
+          "material": "CAULDRON",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": 0,
+          "material": "WAXED_COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": 1,
+          "material": "DROPPER",
+          "facing": "FORWARD"
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": 1,
+          "material": "BARREL",
+          "facing": "FORWARD"
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "material": "WAXED_COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": 0,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": 0,
+          "material": "LIME_STAINED_GLASS",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": 0,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 3,
+          "z": 0,
+          "material": "LIME_STAINED_GLASS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 4,
+          "z": 0,
+          "material": "WAXED_COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -2,
+          "y": 0,
+          "z": 0,
+          "material": "WAXED_COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -2,
+          "y": 1,
+          "z": 0,
+          "material": "BARREL",
+          "facing": null
+        },
+        {
+          "x": -2,
+          "y": 2,
+          "z": 0,
+          "material": "LIME_STAINED_GLASS",
+          "facing": null
+        },
+        {
+          "x": 2,
+          "y": 0,
+          "z": 0,
+          "material": "WAXED_COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "z": 0,
+          "material": "BARREL",
+          "facing": null
+        },
+        {
+          "x": 2,
+          "y": 2,
+          "z": 0,
+          "material": "LIME_STAINED_GLASS",
+          "facing": null
+        }
+      ],
+      "panel": {
+        "z": 1,
+        "x": 0,
+        "y": 1
+      },
+      "port": {
+        "z": -1,
+        "x": 0,
+        "y": 1
+      },
+      "input": {
+        "z": -1,
+        "x": 0,
+        "y": 1
+      },
+      "output": {
+        "z": 1,
+        "x": -1,
+        "y": 1
+      },
+      "limits": {
+        "secondsPerGram": 2,
+        "speed": 1.15,
+        "plants": 64,
+        "yieldPercent": 92.0,
+        "functions": 2,
+        "bufferFractions": 4,
+        "capacityGrams": 1024.0,
+        "otherLossPercent": 1.0
+      },
+      "name": "Извлекатель · обычный"
+    },
+    {
+      "id": "extractor-scientific",
+      "type": "EXTRACTOR",
+      "tier": "SCIENTIFIC",
+      "width": 7,
+      "depth": 5,
+      "height": 5,
+      "requirements": [
+        {
+          "x": -1,
+          "y": 0,
+          "z": -1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": -1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": -1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": 0,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "material": "FURNACE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 0,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": 1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": -1,
+          "material": "HOPPER",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": 0,
+          "material": "WAXED_COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": 0,
+          "material": "CAULDRON",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": 0,
+          "material": "WAXED_COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": 1,
+          "material": "DROPPER",
+          "facing": "FORWARD"
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": 1,
+          "material": "BARREL",
+          "facing": "FORWARD"
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "material": "WAXED_COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": -1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": 0,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": 0,
+          "material": "LIME_STAINED_GLASS",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": 0,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": 1,
+          "material": "AIR",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 3,
+          "z": 0,
+          "material": "LIME_STAINED_GLASS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 4,
+          "z": 0,
+          "material": "WAXED_COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -2,
+          "y": 0,
+          "z": 0,
+          "material": "WAXED_COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -2,
+          "y": 1,
+          "z": 0,
+          "material": "BARREL",
+          "facing": null
+        },
+        {
+          "x": -2,
+          "y": 2,
+          "z": 0,
+          "material": "LIME_STAINED_GLASS",
+          "facing": null
+        },
+        {
+          "x": 2,
+          "y": 0,
+          "z": 0,
+          "material": "WAXED_COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "z": 0,
+          "material": "BARREL",
+          "facing": null
+        },
+        {
+          "x": 2,
+          "y": 2,
+          "z": 0,
+          "material": "LIME_STAINED_GLASS",
+          "facing": null
+        },
+        {
+          "x": -3,
+          "y": 0,
+          "z": 0,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -3,
+          "y": 1,
+          "z": 0,
+          "material": "LECTERN",
+          "facing": null
+        },
+        {
+          "x": -3,
+          "y": 2,
+          "z": 0,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "z": 0,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "z": 0,
+          "material": "ENCHANTING_TABLE",
+          "facing": null
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "z": 0,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": -3,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": -3,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": -3,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": -2,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": -2,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": -2,
+          "material": "IRON_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": -3,
+          "material": "REDSTONE_LAMP",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": -3,
+          "material": "BARREL",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": -3,
+          "material": "REDSTONE_LAMP",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": -2,
+          "material": "AMETHYST_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": -2,
+          "material": "QUARTZ_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": -2,
+          "material": "AMETHYST_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": -3,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": -3,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": -3,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 2,
+          "z": -2,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": -2,
+          "material": "GLASS",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "z": -2,
+          "material": "GLASS",
+          "facing": null
+        }
+      ],
+      "panel": {
+        "z": 1,
+        "x": 0,
+        "y": 1
+      },
+      "port": {
+        "z": -3,
+        "x": 0,
+        "y": 1
+      },
+      "input": {
+        "z": -1,
+        "x": 0,
+        "y": 1
+      },
+      "output": {
+        "z": 1,
+        "x": -1,
+        "y": 1
+      },
+      "limits": {
+        "secondsPerGram": 1,
+        "speed": 1.3,
+        "plants": 256,
+        "yieldPercent": 98.0,
+        "functions": 4,
+        "bufferFractions": 8,
+        "capacityGrams": 4096.0,
+        "otherLossPercent": 0.25
+      },
+      "name": "Извлекатель · научный"
+    },
+    {
+      "id": "warehouse-basic",
+      "type": "WAREHOUSE",
+      "tier": "BASIC",
+      "name": "Складской узел",
+      "width": 3,
+      "height": 3,
+      "depth": 3,
+      "requirements": [
+        {
+          "x": -1,
+          "y": 0,
+          "z": -1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": 0,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "z": 1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": -1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": -1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 0,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 1,
+          "material": "POLISHED_ANDESITE",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": 0,
+          "material": "BARREL",
+          "facing": null
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "z": 0,
+          "material": "COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "z": 0,
+          "material": "COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": 1,
+          "material": "COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "z": -1,
+          "material": "COPPER_BLOCK",
+          "facing": null
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": 0,
+          "material": "REDSTONE_LAMP",
+          "facing": null
+        }
+      ],
+      "panel": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "port": null,
+      "limits": {
+        "barrels": 32,
+        "stations": 16,
+        "pipes": 256,
+        "routeLength": 32
+      }
+    }
+  ],
+  "counts": {
+    "profiles": 62,
+    "elements": 16,
+    "plants": 58,
+    "stations": 15
+  },
+  "materials": {
+    "AIR": "Воздух",
+    "POLISHED_ANDESITE": "Полированный андезит",
+    "SMOOTH_STONE": "Гладкий камень",
+    "FURNACE": "Печь",
+    "PACKED_ICE": "Плотный лёд",
+    "CRAFTING_TABLE": "Верстак",
+    "BREWING_STAND": "Зельеварка",
+    "CAULDRON": "Котёл",
+    "WHITE_STAINED_GLASS": "Белое стекло",
+    "RED_STAINED_GLASS": "Красное стекло",
+    "BLUE_STAINED_GLASS": "Синее стекло",
+    "GRAY_STAINED_GLASS": "Серое стекло",
+    "LIME_STAINED_GLASS": "Лаймовое стекло",
+    "BARREL": "Бочка",
+    "HOPPER": "Воронка",
+    "DROPPER": "Выбрасыватель",
+    "REDSTONE_LAMP": "Редстоуновая лампа",
+    "IRON_BLOCK": "Железный блок",
+    "GLASS": "Стекло",
+    "BLAST_FURNACE": "Плавильная печь",
+    "SMITHING_TABLE": "Стол кузнеца",
+    "REDSTONE_BLOCK": "Редстоуновый блок",
+    "HONEYCOMB_BLOCK": "Блок пчелиных сот",
+    "DECORATED_POT": "Узорчатая ваза",
+    "LECTERN": "Кафедра",
+    "ENCHANTING_TABLE": "Стол зачарований",
+    "QUARTZ_BLOCK": "Кварцевый блок",
+    "AMETHYST_BLOCK": "Аметистовый блок",
+    "COPPER_BLOCK": "Медный блок",
+    "WAXED_COPPER_BLOCK": "Вощёный медный блок",
+    "SMOOTH_STONE_SLAB": "Плита из гладкого камня",
+    "SPRUCE_FENCE": "Еловый забор",
+    "POLISHED_BLACKSTONE_BRICKS": "Полированные чернокаменные кирпичи",
+    "POLISHED_BLACKSTONE_BRICK_WALL": "Ограда из полированных чернокаменных кирпичей",
+    "WAXED_COPPER_GRATE": "Вощёная медная решётка",
+    "ALLIUM": "Лук",
+    "AZALEA": "Азалия",
+    "AZURE_BLUET": "Хаустония",
+    "BAMBOO": "Бамбук",
+    "BIG_DRIPLEAF": "Большая бросянка",
+    "BLUE_ORCHID": "Синяя орхидея",
+    "BROWN_MUSHROOM": "Коричневый гриб",
+    "BUSH": "Куст",
+    "CACTUS_FLOWER": "Цветок кактуса",
+    "CHORUS_FLOWER": "Цветок хоруса",
+    "CLOSED_EYEBLOSSOM": "Закрытый глазоцвет",
+    "COCOA_BEANS": "Какао бобы",
+    "CORNFLOWER": "Василёк",
+    "CRIMSON_FUNGUS": "Багровый гриб",
+    "CRIMSON_ROOTS": "Багровые корни",
+    "DANDELION": "Одуванчик",
+    "DEAD_BUSH": "Мёртвый куст",
+    "FERN": "Папоротник",
+    "FIREFLY_BUSH": "Светлячковый куст",
+    "FLOWERING_AZALEA": "Цветущая азалия",
+    "GLOW_BERRIES": "Светящиеся ягоды",
+    "KELP": "Ламинария",
+    "LARGE_FERN": "Большой папоротник",
+    "LILAC": "Сирень",
+    "LILY_OF_THE_VALLEY": "Ландыш",
+    "MOSS_BLOCK": "Мох",
+    "NETHER_SPROUTS": "Ростки Незера",
+    "NETHER_WART": "Нарост Незера",
+    "OPEN_EYEBLOSSOM": "Открытый глазоцвет",
+    "ORANGE_TULIP": "Оранжевый тюльпан",
+    "OXEYE_DAISY": "Ромашка",
+    "PALE_HANGING_MOSS": "Бледный висячий мох",
+    "PALE_MOSS_BLOCK": "Бледный мох",
+    "PEONY": "Пион",
+    "PINK_PETALS": "Розовые лепестки",
+    "PINK_TULIP": "Розовый тюльпан",
+    "PITCHER_PLANT": "Кувшинница",
+    "POPPY": "Мак",
+    "RED_MUSHROOM": "Красный гриб",
+    "RED_TULIP": "Красный тюльпан",
+    "ROSE_BUSH": "Розовый куст",
+    "SEAGRASS": "Морская трава",
+    "SEA_PICKLE": "Морской огурец",
+    "SHORT_DRY_GRASS": "Низкая сухая трава",
+    "SMALL_DRIPLEAF": "Маленькая бросянка",
+    "SPORE_BLOSSOM": "Спороцвет",
+    "SUNFLOWER": "Подсолнечник",
+    "SWEET_BERRIES": "Сладкие ягоды",
+    "TALL_DRY_GRASS": "Высокая сухая трава",
+    "TORCHFLOWER": "Факельник",
+    "TWISTING_VINES": "Вьющаяся лиана",
+    "VINE": "Лиана",
+    "WARPED_FUNGUS": "Искажённый гриб",
+    "WARPED_ROOTS": "Искажённые корни",
+    "WEEPING_VINES": "Плакучая лиана",
+    "WHITE_TULIP": "Белый тюльпан",
+    "WILDFLOWERS": "Полевые цветы",
+    "WITHER_ROSE": "Роза визера"
+  },
+  "types": {
+    "EXTRACTOR": "Извлекатель",
+    "ASSEMBLY": "Сборочная станция",
+    "REACTOR": "Реактор",
+    "STABILIZER": "Стабилизатор",
+    "SEPARATOR": "Разделитель",
+    "WAREHOUSE": "Складской узел"
+  },
+  "tiers": {
+    "BASIC": "Базовый",
+    "NORMAL": "Обычный",
+    "SCIENTIFIC": "Научный"
+  },
+  "families": {
+    "SUPPORT": "Опорные",
+    "CONNECTOR": "Связующие",
+    "DIRECTOR": "Направляющие",
+    "MOBILE": "Подвижные"
+  },
+  "elementProperties": {
+    "valence": "Сумма кратностей всех связей узла не может превышать валентность.",
+    "affinity": "Вместе с семейством и полярностью участвует в силе связи и энергии структуры.",
+    "mobility": "Влияет на скорость преобразований и профиль действия соединения.",
+    "polarity": "Влияет на взаимодействие элементов и среду; значения бывают положительными и отрицательными.",
+    "strain": "Определяет вклад элемента в напряжение разветвлённой структуры."
+  },
+  "biomes": {
+    "BADLANDS": "Пустоши",
+    "BAMBOO_JUNGLE": "Бамбуковые джунгли",
+    "BASALT_DELTAS": "Базальтовые дельты",
+    "BIRCH_FOREST": "Берёзовый лес",
+    "CHERRY_GROVE": "Вишнёвая роща",
+    "COLD_OCEAN": "Холодный океан",
+    "CRIMSON_FOREST": "Багровый лес",
+    "DARK_FOREST": "Тёмный лес",
+    "DEEP_COLD_OCEAN": "Глубокий холодный океан",
+    "DEEP_DARK": "Тёмные глубины",
+    "DEEP_FROZEN_OCEAN": "Глубокий замёрзший океан",
+    "DEEP_LUKEWARM_OCEAN": "Глубокий умеренно тёплый океан",
+    "DEEP_OCEAN": "Глубокий океан",
+    "DESERT": "Пустыня",
+    "DRIPSTONE_CAVES": "Карстовые пещеры",
+    "END_BARRENS": "Окраины Энда",
+    "END_HIGHLANDS": "Возвышенности Энда",
+    "END_MIDLANDS": "Средние земли Энда",
+    "ERODED_BADLANDS": "Размытые пустоши",
+    "FLOWER_FOREST": "Цветочный лес",
+    "FOREST": "Лес",
+    "FROZEN_OCEAN": "Замёрзший океан",
+    "JUNGLE": "Джунгли",
+    "LUKEWARM_OCEAN": "Умеренно тёплый океан",
+    "LUSH_CAVES": "Пышные пещеры",
+    "MANGROVE_SWAMP": "Мангровое болото",
+    "MEADOW": "Луг",
+    "MUSHROOM_FIELDS": "Грибные поля",
+    "NETHER_WASTES": "Пустоши Незера",
+    "OCEAN": "Океан",
+    "OLD_GROWTH_BIRCH_FOREST": "Старовозрастный берёзовый лес",
+    "OLD_GROWTH_PINE_TAIGA": "Старовозрастная сосновая тайга",
+    "OLD_GROWTH_SPRUCE_TAIGA": "Старовозрастная еловая тайга",
+    "PALE_GARDEN": "Бледный сад",
+    "PLAINS": "Равнины",
+    "SAVANNA": "Саванна",
+    "SAVANNA_PLATEAU": "Плато саванны",
+    "SMALL_END_ISLANDS": "Маленькие острова Энда",
+    "SNOWY_TAIGA": "Заснеженная тайга",
+    "SOUL_SAND_VALLEY": "Долина песка душ",
+    "SPARSE_JUNGLE": "Редкие джунгли",
+    "SUNFLOWER_PLAINS": "Подсолнечные равнины",
+    "SWAMP": "Болото",
+    "TAIGA": "Тайга",
+    "THE_END": "Энд",
+    "WARM_OCEAN": "Тёплый океан",
+    "WARPED_FOREST": "Искажённый лес",
+    "WINDSWEPT_SAVANNA": "Ветреная саванна",
+    "WOODED_BADLANDS": "Лесистые пустоши"
+  },
+  "warehouse": {
+    "allowedCopper": [
+      "COPPER_BLOCK",
+      "EXPOSED_COPPER",
+      "WEATHERED_COPPER",
+      "OXIDIZED_COPPER",
+      "CHISELED_COPPER",
+      "EXPOSED_CHISELED_COPPER",
+      "WEATHERED_CHISELED_COPPER",
+      "OXIDIZED_CHISELED_COPPER"
+    ],
+    "waxedAllowed": true,
+    "diagonalLinks": false,
+    "routeLength": 32,
+    "barrels": 32,
+    "stations": 16,
+    "pipes": 256
+  },
+  "massUnit": "micrograms",
+  "version": "0.1.0-SNAPSHOT",
+  "paperVersion": "26.3"
+}
